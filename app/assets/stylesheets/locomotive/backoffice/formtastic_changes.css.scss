@@ -262,6 +262,11 @@ form.formtastic {
             @include single-text-shadow(rgba(0, 0, 0, 0.7), 0px, 1px, 1px);
           }
         } // div.inline-errors
+        div.list {
+	  div.inline-errors {
+	    margin-left: 0;
+	  }
+        }
 
         &.string, &.password {
           label {

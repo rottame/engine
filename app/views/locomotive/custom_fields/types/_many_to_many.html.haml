@@ -11,7 +11,7 @@
 
     %script{ :type => 'text/html', :id => "#{name}_list" }
 
-      %p.empty{ :style => 'display: none' }!= t('.empty')
+      %p.empty{ :style => 'display: none', :id => "content_entry_#{name}" }!= t('.empty')
 
       %ul
 
