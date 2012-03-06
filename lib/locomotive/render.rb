@@ -73,7 +73,7 @@ module Locomotive
         'url'               => request.url,
         'now'               => Time.now.utc,
         'today'             => Date.today,
-        'locale'            => I18n.locale,
+        'locale'            => I18n.locale.to_s,
         'default_locale'    => current_site.default_locale.to_s,
         'locales'           => current_site.locales
       }
